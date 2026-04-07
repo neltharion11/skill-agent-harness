@@ -14,26 +14,26 @@
 
 ---
 
-## ⚠️ Important Note
+## ⚠️ 重要说明 | Important Note
 
-This skill has **two independent versions** on GitHub:
+GitHub 仓库包含**两个独立版本**：
 
-- 🇨🇳 **Chinese version** → `chinese/` folder
-- 🇺🇸 **English version** → `english/` folder
+- 🇨🇳 **中文版** → `chinese/` 文件夹
+- 🇺🇸 **English** → `english/` 文件夹
 
-**ClawHub users**: This download contains the **English version only**.
+**ClawHub 用户**：下载的内容为**英文版**。
 
-**Chinese users**: Please download from GitHub and use the `chinese/` folder.
+**中文用户**：请从 GitHub 下载，使用 `chinese/` 文件夹。
 
 ---
 
 ## 📦 Installation | 安装
 
 ```bash
-# via ClawHub (English version only)
+# via ClawHub（英文版）
 clawhub install agent-harness
 
-# via GitHub - choose the folder you need
+# via GitHub - 选择你需要的版本
 ```
 
 ---
