@@ -4,44 +4,47 @@
 
 ---
 
+## ⚠️ Choose One Version | 二选一
+
+本仓库包含**中文版和英文版**。安装时请**只选择一个版本**：
+
+| 版本 | 文件夹 | 触发词 |
+|------|--------|--------|
+| 🇨🇳 **中文版** | `chinese/` | 中文触发词 |
+| 🇺🇸 **English** | `english/` | English triggers |
+
+**不要同时下载两个文件夹。** OpenClaw 只读根目录 `SKILL.md`。
+
+---
+
+## 📦 Installation | 安装
+
+```bash
+# via ClawHub (English version)
+clawhub install agent-harness
+
+# via GitHub - choose ONE folder only:
+# 中文用户 → 下载 chinese/ 文件夹
+# English users → download english/ folder
+```
+
+---
+
 ## 📂 Repository Structure
 
 ```
 agent-harness/
-├── chinese/          # 中文版 (Chinese Version)
+├── README.md              # 本文件
+├── SKILL.md               # 入口（英文版）
+├── chinese/               # 中文版
 │   ├── SKILL.md
 │   ├── README.md
 │   ├── references/
 │   └── assets/
-│
-├── english/          # English Version
-│   ├── SKILL.md
-│   ├── README.md
-│   └── references/
-│
-├── chinese/README.md    # 中文使用指南
-└── english/README.md    # English Usage Guide
-```
-
----
-
-## 🌏 Choose Your Language
-
-| Language | README | Description |
-|----------|--------|-------------|
-| 🇨🇳 中文 | [点击查看](chinese/README.md) | 统一入口的思考框架 + 工作流 Skill |
-| 🇺🇸 English | [Click Here](english/README.md) | Unified Thinking Framework + Workflow Skill |
-
----
-
-## 📦 Install
-
-```bash
-# via ClawHub
-clawhub install agent-harness
-
-# via SkillHub
-skillhub install agent-harness
+└── english/              # English version
+    ├── SKILL.md
+    ├── README.md
+    └── references/
 ```
 
 ---
@@ -50,10 +53,10 @@ skillhub install agent-harness
 
 | Item | Value |
 |------|-------|
-| **Name** | agent-harness |
-| **License** | MIT |
-| **Author** | neltharion11 |
-| **Repository** | https://github.com/neltharion11/skill-agent-harness |
+| **名称** | agent-harness |
+| **许可** | MIT |
+| **作者** | neltharion11 |
+| **仓库** | https://github.com/neltharion11/skill-agent-harness |
 
 ---
 
