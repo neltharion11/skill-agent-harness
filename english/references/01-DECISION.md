@@ -14,10 +14,6 @@ What type of task is this?
 │
 ├─ Need to gather requirements? ─── → Inversion (clarify first)
 │
-├─ Need to generate formatted content? ─── → Generator (direct generation)
-│
-├─ Need to review/score? ─── → Reviewer (check & evaluate)
-│
 └─ Need multi-step execution?
     │
     └─ Yes ──→ Pipeline + specific WORKFLOW
@@ -38,8 +34,6 @@ What type of task is this?
 | Multi-Agent Coordination | **Pipeline + subagent** | Decompose+parallel+merge |
 | Long-Task Compression | **Pipeline + context** | Context management |
 | Competitive/Multi-Dim Analysis | **Pipeline + analysis** | Comparison & evaluation |
-| Fixed-Format Generation | Generator | Direct template filling |
-| Quality Review | Reviewer | Inspection & scoring |
 | Unclear Requirements | Inversion | Gather information first |
 
 ---
@@ -64,16 +58,6 @@ Decision Process:
 1. Multi-step? → Yes
 2. Specific type? → Analysis
 3. Combination: Pipeline + analysis
-```
-
-### Example 3
-
-**Task**: "Generate consistently formatted weekly reports"
-```
-Decision Process:
-1. Multi-step? → No, fixed format
-2. Need generation? → Yes
-3. Combination: Generator (direct filling)
 ```
 
 ---
