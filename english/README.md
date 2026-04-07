@@ -1,9 +1,15 @@
-# 🎯 Agent Harness
+# 🎯 Agent Harness — English Version
 
 > **Unified Thinking Framework + Workflow Skill for Agents**
 > When executing complex tasks, an Agent should first decide "what combination to use", then execute layer by layer.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+## ↩️ Back to Home
+
+[← Back to root README](../README.md)
 
 ---
 
@@ -29,16 +35,6 @@ Step 1 ──→ Step 2 ──→ Step 3 ──→ Step 4 ──→ Step 5
   Decision    Framework    Workflow    Template    Quality Check
 ```
 
-### Analogy
-
-```
-🍳 Cooking Scenario:
-- Decision Tree = Customer orders ("I want something spicy today")
-- Pipeline = Cooking method (no matter what you cook, first heat the pan)
-- WORKFLOWS = Specific recipes (how to make fish-flavored shredded pork)
-- Template = Plating style (how to arrange the plate)
-```
-
 ---
 
 ## 🚀 Quick Start
@@ -49,8 +45,8 @@ Step 1 ──→ Step 2 ──→ Step 3 ──→ Step 4 ──→ Step 5
 # via ClawHub
 clawhub install agent-harness
 
-# via SkillHub
-skillhub install agent-harness
+# via GitHub
+# Download the english/ folder to your skills directory
 ```
 
 ### Trigger Words (Auto-activate Skill)
@@ -60,42 +56,6 @@ research, plan, design, think, pattern, process, step, review, score, analyze,
 evaluate, compare, survey, solution, feasibility, summary, deep research,
 research report, task decomposition, multi-agent, parallel execution,
 context compression, long-task planning
-```
-
-### Workflow
-
-```
-Receive Task
-    ↓
-Trigger agent-harness skill
-    ↓
-[Step 1] Decision Tree → Determine Combination
-[Step 2] Pipeline → 4-Step Execution
-[Step 3] WORKFLOW → Specific Content
-[Step 4] Template → Structured Output
-[Step 5] Quality Check → Verification
-```
-
----
-
-## 📁 Directory Structure
-
-```
-english/
-├── SKILL.md                      # Entry + Layer Description
-└── references/
-    ├── 01-DECISION.md           # Decision Tree
-    ├── 02-PIPELINE.md            # Execution Framework (4 steps)
-    ├── 03-WORKFLOWS/            # Workflow Content
-    │   ├── research.md          # Research Mode
-    │   ├── subagent.md         # Coordination Mode
-    │   ├── context.md          # Compression Mode
-    │   └── analysis.md         # Analysis Mode
-    ├── 04-TEMPLATES/            # Output Templates
-    │   ├── research-report.md
-    │   └── analysis-report.md
-    ├── 05-QUALITY.md           # Quality Check
-    └── 06-INVERSION.md          # Requirements Clarification (Standalone Mode)
 ```
 
 ---
@@ -119,47 +79,25 @@ english/
 
 ---
 
-## ⚙️ Pipeline 4-Step Execution Flow
+## 📁 Directory Structure
 
 ```
-Step 1: Plan      → Understand goals, decompose tasks
-Step 2: Execute   → Act according to plan, record results
-Step 3: Summarize → Organize outputs, merge information
-Step 4: Check     → Quality verification, iterate if needed
+english/
+├── SKILL.md                      # Entry + Layer Description
+└── references/
+    ├── 01-DECISION.md           # Decision Tree
+    ├── 02-PIPELINE.md            # Execution Framework (4 steps)
+    ├── 03-WORKFLOWS/            # Workflow Content
+    │   ├── research.md          # Research Mode
+    │   ├── subagent.md         # Coordination Mode
+    │   ├── context.md          # Compression Mode
+    │   └── analysis.md         # Analysis Mode
+    ├── 04-TEMPLATES/            # Output Templates
+    │   ├── research-report.md
+    │   └── analysis-report.md
+    ├── 05-QUALITY.md           # Quality Check
+    └── 06-INVERSION.md          # Requirements Clarification (Standalone Mode)
 ```
-
----
-
-## 🧪 Case Studies
-
-<details>
-<summary><strong>📄 Case Study 1: Research Mode</strong></summary>
-
-```
-Input: Research embedded Linux learning path
-Trigger: Pipeline + research
-Execute:
-  1. Decompose sub-topics
-  2. Parallel search & collect
-  3. Summarize into report
-Output: Complete research report
-```
-</details>
-
-<details>
-<summary><strong>🤖 Case Study 2: Sub-Agent Coordination</strong></summary>
-
-```
-Input: Recruit backend engineer
-Trigger: Pipeline + subagent
-Execute:
-  1. Analyze requirements
-  2. Decompose sub-tasks
-  3. Parallel execution
-  4. Merge results
-Output: Candidate recommendation list
-```
-</details>
 
 ---
 
